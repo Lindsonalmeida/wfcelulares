@@ -35,7 +35,7 @@ img{display:block;max-width:100%}
 .pill.az{background:var(--az);color:#fff}
 .pill.gh{border:1px solid rgba(255,255,255,.22);color:var(--gelo)}
 /* hero */
-.hero{position:relative;padding:36px 0 0;text-align:center;overflow:hidden}
+.hero{position:relative;padding:18px 0 0;text-align:center;overflow:hidden}
 .tag{display:inline-block;font-size:12px;letter-spacing:.04em;color:var(--pr);border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:rgba(255,255,255,.03)}
 h1{font-weight:200;font-size:clamp(44px,13vw,72px);line-height:1.02;letter-spacing:-.035em;margin:18px 0 14px}
 .sub{color:var(--pr);font-size:16px;line-height:1.5;max-width:340px;margin:0 auto}
@@ -100,6 +100,7 @@ footer .mega{font-size:clamp(56px,18vw,120px);font-weight:200;letter-spacing:-.0
 .rv.on{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
 @media (min-width:900px){.w{max-width:1080px}.hero .w{max-width:760px}.links{grid-template-columns:1fr 1fr}.bento{grid-template-columns:repeat(3,1fr)}.card{min-height:300px}.card.big{grid-column:span 2;min-height:300px}.lojas{grid-template-columns:1fr 1fr}.hero-img{margin:6px auto 0;max-width:640px}.laudo{display:grid;grid-template-columns:1fr 1fr}.laudo img{height:100%}}
+.links-topo{margin-top:6px}.links-topo h2{font-size:22px}.hero h1{font-size:clamp(30px,8vw,52px)}.hero2{padding-top:10px}
 </style>
 </head>
 <body>
@@ -113,16 +114,8 @@ footer .mega{font-size:clamp(56px,18vw,120px);font-weight:200;letter-spacing:-.0
   <span class="tag">São Cristóvão · Renascença · São Luís</span>
   <h1>iPhone com<br><span class="ti">procedência.</span></h1>
   <p class="sub">Lacrados e seminovos testados, com laudo, garantia e nota. E assistência técnica que mostra antes de mexer.</p>
-  <div class="ctas">
-    <a class="pill az" data-wa="Olá, WF! Vim pelo site e quero ver os iPhones disponíveis hoje." href="#">Ver iPhones disponíveis</a>
-    <a class="pill gh" href="#lojas">Onde estamos</a>
-  </div>
-  <div class="hero-img"><img src="img/hero.webp" alt="iPhone 16 Pro em titânio" width="900" height="1260" fetchpriority="high"></div>
-  <div class="chips"><span class="chip">iPhone</span><span class="chip">iPad</span><span class="chip">Xiaomi</span><span class="chip">Boombox</span></div>
-  <p class="cred">Imagem ilustrativa · Apple Newsroom</p>
-</div></div>
-
-<section class="w rv">
+ </div></div>
+<section class="w links-topo">
   <p class="k">Fale direto com a loja</p>
   <h2>O que você <span>procura?</span></h2>
   <div class="links">
@@ -134,6 +127,12 @@ footer .mega{font-size:clamp(56px,18vw,120px);font-weight:200;letter-spacing:-.0
     <a class="lk" href="#lojas"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></span><span><b>Nossas lojas</b><small>São Cristóvão e Renascença</small></span><span class="ar">›</span></a>
   </div>
 </section>
+<div class="hero hero2"><div class="w">
+  <div class="hero-img"><img src="img/hero.webp" alt="iPhone 16 Pro em titânio" width="900" height="1260" fetchpriority="high"></div>
+  <div class="chips"><span class="chip">iPhone</span><span class="chip">iPad</span><span class="chip">Xiaomi</span><span class="chip">Boombox</span></div>
+  <p class="cred">Imagem ilustrativa · Apple Newsroom</p>
+</div></div>
+
 
 <section class="w rv">
   <p class="k">Loja</p>
